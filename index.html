@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--Questo sito è stato creato da Moreno D'Alfonso, studente del corso di laurea magistrale in Informatica Umanistica presso l'università di Pisa. Versione 1.5 !-->
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <script src="workout.js"></script>
+ <link rel="stylesheet" href="workout.css">
+ <title>Workout builder</title>
+ </head>
+ <body>
+   <header><h1>Workout builder</h1></header>
+     <div id="HELLO"><h2><span>H</span><span>E</span><span>L</span><span>L</span><span>O</span></h2></div>
+     <h3>Benvenut* nel mio sito! Pront* per allenarti?</h3>
+   <br />
+     <h4> In questa pagina potrai scoprire quale tipo di workout eseguire <br /> in base al giorno della settimana! </h4>
+   <br />
+   <input type="button"
+		  id="time"
+		  value="Controlla il giorno"/>
+   <br />
+   <br />
+   <input type="text" 
+		  id="tempo"/>
+   <br />
+   <br />
+   <input type="button"
+		  id="music"
+		  value="Musica per motivarti?"/>
+   <br /> 
+   <br />	
+   <audio controls>
+   <source src="Audio.mp3" 
+		   type="audio/mpeg" 
+		   id= "musica"></audio>
+     <h5> Seleziona il giorno della settimana </h5>
+   <br />
+     <select id="categorie"></select>
+     <input type="button"
+		    id="imposta"
+		    value="Cerca"/>
+   <br />
+   <br />
+   <br />
+      <div id='wrapper'>
+      <div id="risultato"></div>
+      <div id='imgRisultato'></div>
+      </div>
+   <br />
+   <br />
+   <br />
+   <footer>
+	  <br />
+	  <p>Questo sito è stato creato da Moreno D'Alfonso, studente del corso di laurea magistrale in Informatica Umanistica presso l'università di Pisa</p>
+	  <ul><p> Contatti:</p>
+		<div>E-Mail:<a id ="link1" href ="mailto: m.dalfonso@studenti.unipi.it">m.dalfonso@studenti.unipi.it</a></div>
+		<br />
+		<div>Instagram:<a id="link2" href="https://www.instagram.com/morenod_ig/">@morenod_ig</a></div>
+		<br />
+		<div>Linkedin:<a id="link3" href="https://www.linkedin.com/in/moreno-d-alfonso-30713a194/"> Moreno D'Alfonso</a></div>
+      </ul>
+   </footer>
+ </body>
+</html>
